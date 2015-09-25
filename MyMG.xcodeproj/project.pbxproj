@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FB78C9235FB2BB51BE091C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E2ED90A59248EDE0F6240B /* libPods.a */; };
+		EE6BDE141BB3A5A000236DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE131BB3A5A000236DC3 /* AppDelegate.m */; };
+		EE6BDE161BB3A5A000236DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE151BB3A5A000236DC3 /* main.m */; };
+		EE6BDE181BB3A5A000236DC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6BDE171BB3A5A000236DC3 /* Images.xcassets */; };
+		EE6BDE1B1BB3A5A000236DC3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6BDE191BB3A5A000236DC3 /* MainMenu.xib */; };
+		EE6BDE341BB3C93C00236DC3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE6BDE331BB3C93C00236DC3 /* icon.icns */; };
+		EE6BDE361BB3CD3F00236DC3 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6BDE351BB3CD3F00236DC3 /* QTKit.framework */; };
+		EE6BDE381BB3CF8400236DC3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6BDE371BB3CF8400236DC3 /* CFNetwork.framework */; };
+		EE6BDE3C1BB3D92D00236DC3 /* MGTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE3B1BB3D92D00236DC3 /* MGTitleButton.m */; };
+		EE6BDE451BB3EC4300236DC3 /* MGTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE441BB3EC4300236DC3 /* MGTextFieldCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14E2ED90A59248EDE0F6240B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3F23D285D5EE5FCB59CCAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D5B4F351A3FF1361EC9411 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EE6BDE0D1BB3A5A000236DC3 /* MyMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6BDE111BB3A5A000236DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6BDE121BB3A5A000236DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE6BDE131BB3A5A000236DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE6BDE151BB3A5A000236DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE6BDE171BB3A5A000236DC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE6BDE1A1BB3A5A000236DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EE6BDE301BB3A85700236DC3 /* MyMG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMG-Prefix.pch"; sourceTree = "<group>"; };
+		EE6BDE331BB3C93C00236DC3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		EE6BDE351BB3CD3F00236DC3 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		EE6BDE371BB3CF8400236DC3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EE6BDE3A1BB3D92D00236DC3 /* MGTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTitleButton.h; path = MyMG/MGTitleButton.h; sourceTree = "<group>"; };
+		EE6BDE3B1BB3D92D00236DC3 /* MGTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTitleButton.m; path = MyMG/MGTitleButton.m; sourceTree = "<group>"; };
+		EE6BDE431BB3EC4300236DC3 /* MGTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTextFieldCell.h; path = MyMG/MGTextFieldCell.h; sourceTree = "<group>"; };
+		EE6BDE441BB3EC4300236DC3 /* MGTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTextFieldCell.m; path = MyMG/MGTextFieldCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6BDE0A1BB3A5A000236DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6BDE381BB3CF8400236DC3 /* CFNetwork.framework in Frameworks */,
+				EE6BDE361BB3CD3F00236DC3 /* QTKit.framework in Frameworks */,
+				84FB78C9235FB2BB51BE091C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0B90B690599F77E077B367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F23D285D5EE5FCB59CCAC /* Pods.debug.xcconfig */,
+				E3D5B4F351A3FF1361EC9411 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A84A3A2DD4C5E3E67DB10A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BDE371BB3CF8400236DC3 /* CFNetwork.framework */,
+				EE6BDE351BB3CD3F00236DC3 /* QTKit.framework */,
+				14E2ED90A59248EDE0F6240B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE6BDE041BB3A5A000236DC3 = {
+			isa = PBXGroup;
+			children = (
+				EE6BDE391BB3D8AF00236DC3 /* UIComponent */,
+				EE6BDE0F1BB3A5A000236DC3 /* MyMG */,
+				EE6BDE0E1BB3A5A000236DC3 /* Products */,
+				8C0B90B690599F77E077B367 /* Pods */,
+				A84A3A2DD4C5E3E67DB10A74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6BDE0E1BB3A5A000236DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BDE0D1BB3A5A000236DC3 /* MyMG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6BDE0F1BB3A5A000236DC3 /* MyMG */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BDE121BB3A5A000236DC3 /* AppDelegate.h */,
+				EE6BDE131BB3A5A000236DC3 /* AppDelegate.m */,
+				EE6BDE171BB3A5A000236DC3 /* Images.xcassets */,
+				EE6BDE191BB3A5A000236DC3 /* MainMenu.xib */,
+				EE6BDE101BB3A5A000236DC3 /* Supporting Files */,
+			);
+			path = MyMG;
+			sourceTree = "<group>";
+		};
+		EE6BDE101BB3A5A000236DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BDE331BB3C93C00236DC3 /* icon.icns */,
+				EE6BDE301BB3A85700236DC3 /* MyMG-Prefix.pch */,
+				EE6BDE111BB3A5A000236DC3 /* Info.plist */,
+				EE6BDE151BB3A5A000236DC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE6BDE391BB3D8AF00236DC3 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BDE431BB3EC4300236DC3 /* MGTextFieldCell.h */,
+				EE6BDE441BB3EC4300236DC3 /* MGTextFieldCell.m */,
+				EE6BDE3A1BB3D92D00236DC3 /* MGTitleButton.h */,
+				EE6BDE3B1BB3D92D00236DC3 /* MGTitleButton.m */,
+			);
+			name = UIComponent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6BDE0C1BB3A5A000236DC3 /* MyMG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6BDE2A1BB3A5A100236DC3 /* Build configuration list for PBXNativeTarget "MyMG" */;
+			buildPhases = (
+				647B67C61B5C5C4525D53F17 /* Check Pods Manifest.lock */,
+				EE6BDE091BB3A5A000236DC3 /* Sources */,
+				EE6BDE0A1BB3A5A000236DC3 /* Frameworks */,
+				EE6BDE0B1BB3A5A000236DC3 /* Resources */,
+				11214C5F4509B7B3D200F9A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMG;
+			productName = MyMG;
+			productReference = EE6BDE0D1BB3A5A000236DC3 /* MyMG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6BDE051BB3A5A000236DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = caobin;
+				TargetAttributes = {
+					EE6BDE0C1BB3A5A000236DC3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = EE6BDE081BB3A5A000236DC3 /* Build configuration list for PBXProject "MyMG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6BDE041BB3A5A000236DC3;
+			productRefGroup = EE6BDE0E1BB3A5A000236DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6BDE0C1BB3A5A000236DC3 /* MyMG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6BDE0B1BB3A5A000236DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6BDE341BB3C93C00236DC3 /* icon.icns in Resources */,
+				EE6BDE181BB3A5A000236DC3 /* Images.xcassets in Resources */,
+				EE6BDE1B1BB3A5A000236DC3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11214C5F4509B7B3D200F9A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647B67C61B5C5C4525D53F17 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6BDE091BB3A5A000236DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6BDE161BB3A5A000236DC3 /* main.m in Sources */,
+				EE6BDE451BB3EC4300236DC3 /* MGTextFieldCell.m in Sources */,
+				EE6BDE3C1BB3D92D00236DC3 /* MGTitleButton.m in Sources */,
+				EE6BDE141BB3A5A000236DC3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE6BDE191BB3A5A000236DC3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6BDE1A1BB3A5A000236DC3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6BDE281BB3A5A100236DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE6BDE291BB3A5A100236DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE6BDE2B1BB3A5A100236DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3F23D285D5EE5FCB59CCAC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyMG/MyMG-Prefix.pch";
+				INFOPLIST_FILE = MyMG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE6BDE2C1BB3A5A100236DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D5B4F351A3FF1361EC9411 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyMG/MyMG-Prefix.pch";
+				INFOPLIST_FILE = MyMG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6BDE081BB3A5A000236DC3 /* Build configuration list for PBXProject "MyMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6BDE281BB3A5A100236DC3 /* Debug */,
+				EE6BDE291BB3A5A100236DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6BDE2A1BB3A5A100236DC3 /* Build configuration list for PBXNativeTarget "MyMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6BDE2B1BB3A5A100236DC3 /* Debug */,
+				EE6BDE2C1BB3A5A100236DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6BDE051BB3A5A000236DC3 /* Project object */;
+}
