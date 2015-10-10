@@ -14,7 +14,7 @@
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
                 <outlet property="MainWindow" destination="QvC-M9-y7g" id="pDe-z5-UXx"/>
-                <outlet property="window" destination="QvC-M9-y7g" id="ncb-xu-m1d"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="PH8-8o-C8A"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>

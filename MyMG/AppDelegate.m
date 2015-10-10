@@ -8,11 +8,17 @@
 
 #import "AppDelegate.h"
 #import "MGTitleButton.h"
+#import "MGResourcePage.h"
+#import <WebViewJavascriptBridge.h>
+#import "Utils.h"
+#import "DownloadHandle.h"
 
 @interface AppDelegate () {
     
     NSImageView                     *_menuBackgoundView;
     id                              _menuBackgroundConstraint;
+    
+    MGResourcePage                  *_resourcePage;
 }
 
 //@property (weak) IBOutlet NSWindow *window;
@@ -61,6 +67,11 @@
     };
     
     [self drawTitleTabBar];
+    [self initWebResource];
+    
+    [Utils SandboxDictionary];
+    
+  //  [[DownloadHandle shareHandle] downloadWithTask:nil];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -147,6 +158,35 @@
     }
     [_menuBackgoundView setHidden:YES];
     
+}
+
+#pragma mark - WebResource
+
+-(void)initWebResource
+{
+    _resourcePage = [[MGResourcePage alloc] init];
+    _resourcePage.UIDelegate = _resourcePage;
+    _resourcePage.resourceLoadDelegate	= _resourcePage;
+    _resourcePage.frameLoadDelegate		= _resourcePage;
+    _resourcePage.policyDelegate			= _resourcePage;
+    [[(WebView *)_resourcePage mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:WALLPAPER_SITE_2]]];
+    [self.window.titleBarView addSubview:_resourcePage];
+    [_resourcePage mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(_menuBackgoundView).offset(40);
+        make.left.equalTo(self.window.contentView);
+        make.right.equalTo(self.window.contentView);
+        make.bottom.equalTo(self.window.contentView);
+    }];
+    
+    [WebViewJavascriptBridge enableLogging];
+    
+//    WebViewJavascriptBridge *bridge = [WebViewJavascriptBridge bridgeForWebView:_resourcePage handler:^(id data, WVJBResponseCallback responseCallback) {
+//        NSLog(@"Received message from javascript: %@", data);
+//        responseCallback(@"Right back atcha");
+//    }];
+//    [bridge registerHandler:@"BeginDownload" handler:^(id data, WVJBResponseCallback responseCallback) {
+//        NSLog(@"......");
+//    }];
 }
 
 @end

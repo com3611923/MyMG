@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		84FB78C9235FB2BB51BE091C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E2ED90A59248EDE0F6240B /* libPods.a */; };
+		EE148D431BB4EEA1000554C3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE148D421BB4EEA1000554C3 /* WebKit.framework */; };
+		EE148D461BB4EEE3000554C3 /* MGResourcePage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE148D451BB4EEE3000554C3 /* MGResourcePage.m */; };
 		EE6BDE141BB3A5A000236DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE131BB3A5A000236DC3 /* AppDelegate.m */; };
 		EE6BDE161BB3A5A000236DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE151BB3A5A000236DC3 /* main.m */; };
 		EE6BDE181BB3A5A000236DC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6BDE171BB3A5A000236DC3 /* Images.xcassets */; };
@@ -17,12 +19,17 @@
 		EE6BDE381BB3CF8400236DC3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6BDE371BB3CF8400236DC3 /* CFNetwork.framework */; };
 		EE6BDE3C1BB3D92D00236DC3 /* MGTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE3B1BB3D92D00236DC3 /* MGTitleButton.m */; };
 		EE6BDE451BB3EC4300236DC3 /* MGTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6BDE441BB3EC4300236DC3 /* MGTextFieldCell.m */; };
+		EEB0A3E41BC60A39008E13DA /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB0A3E31BC60A39008E13DA /* Utils.m */; };
+		EEB0A3E81BC61B42008E13DA /* DownloadHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB0A3E71BC61B42008E13DA /* DownloadHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14E2ED90A59248EDE0F6240B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3F23D285D5EE5FCB59CCAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E3D5B4F351A3FF1361EC9411 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EE148D421BB4EEA1000554C3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EE148D441BB4EEE3000554C3 /* MGResourcePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGResourcePage.h; path = MyMG/MGResourcePage.h; sourceTree = "<group>"; };
+		EE148D451BB4EEE3000554C3 /* MGResourcePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGResourcePage.m; path = MyMG/MGResourcePage.m; sourceTree = "<group>"; };
 		EE6BDE0D1BB3A5A000236DC3 /* MyMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6BDE111BB3A5A000236DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE6BDE121BB3A5A000236DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +45,10 @@
 		EE6BDE3B1BB3D92D00236DC3 /* MGTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTitleButton.m; path = MyMG/MGTitleButton.m; sourceTree = "<group>"; };
 		EE6BDE431BB3EC4300236DC3 /* MGTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTextFieldCell.h; path = MyMG/MGTextFieldCell.h; sourceTree = "<group>"; };
 		EE6BDE441BB3EC4300236DC3 /* MGTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTextFieldCell.m; path = MyMG/MGTextFieldCell.m; sourceTree = "<group>"; };
+		EEB0A3E21BC60A39008E13DA /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = MyMG/Utils.h; sourceTree = "<group>"; };
+		EEB0A3E31BC60A39008E13DA /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = MyMG/Utils.m; sourceTree = "<group>"; };
+		EEB0A3E61BC61B42008E13DA /* DownloadHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadHandle.h; path = MyMG/DownloadHandle.h; sourceTree = "<group>"; };
+		EEB0A3E71BC61B42008E13DA /* DownloadHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadHandle.m; path = MyMG/DownloadHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE148D431BB4EEA1000554C3 /* WebKit.framework in Frameworks */,
 				EE6BDE381BB3CF8400236DC3 /* CFNetwork.framework in Frameworks */,
 				EE6BDE361BB3CD3F00236DC3 /* QTKit.framework in Frameworks */,
 				84FB78C9235FB2BB51BE091C /* libPods.a in Frameworks */,
@@ -66,6 +78,7 @@
 		A84A3A2DD4C5E3E67DB10A74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE148D421BB4EEA1000554C3 /* WebKit.framework */,
 				EE6BDE371BB3CF8400236DC3 /* CFNetwork.framework */,
 				EE6BDE351BB3CD3F00236DC3 /* QTKit.framework */,
 				14E2ED90A59248EDE0F6240B /* libPods.a */,
@@ -73,9 +86,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE148D411BB4EE31000554C3 /* WebSource */ = {
+			isa = PBXGroup;
+			children = (
+				EE148D441BB4EEE3000554C3 /* MGResourcePage.h */,
+				EE148D451BB4EEE3000554C3 /* MGResourcePage.m */,
+			);
+			name = WebSource;
+			sourceTree = "<group>";
+		};
 		EE6BDE041BB3A5A000236DC3 = {
 			isa = PBXGroup;
 			children = (
+				EEB0A3E51BC61B26008E13DA /* Handle */,
+				EEB0A3E11BC60993008E13DA /* Utils */,
+				EE148D411BB4EE31000554C3 /* WebSource */,
 				EE6BDE391BB3D8AF00236DC3 /* UIComponent */,
 				EE6BDE0F1BB3A5A000236DC3 /* MyMG */,
 				EE6BDE0E1BB3A5A000236DC3 /* Products */,
@@ -124,6 +149,24 @@
 				EE6BDE3B1BB3D92D00236DC3 /* MGTitleButton.m */,
 			);
 			name = UIComponent;
+			sourceTree = "<group>";
+		};
+		EEB0A3E11BC60993008E13DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0A3E21BC60A39008E13DA /* Utils.h */,
+				EEB0A3E31BC60A39008E13DA /* Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EEB0A3E51BC61B26008E13DA /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0A3E61BC61B42008E13DA /* DownloadHandle.h */,
+				EEB0A3E71BC61B42008E13DA /* DownloadHandle.m */,
+			);
+			name = Handle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6BDE161BB3A5A000236DC3 /* main.m in Sources */,
+				EE148D461BB4EEE3000554C3 /* MGResourcePage.m in Sources */,
 				EE6BDE451BB3EC4300236DC3 /* MGTextFieldCell.m in Sources */,
+				EEB0A3E41BC60A39008E13DA /* Utils.m in Sources */,
 				EE6BDE3C1BB3D92D00236DC3 /* MGTitleButton.m in Sources */,
+				EEB0A3E81BC61B42008E13DA /* DownloadHandle.m in Sources */,
 				EE6BDE141BB3A5A000236DC3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
